@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="My Portifolio Website">
+        <meta name="author" content="Erick Mwangi">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="portifolio.css">
+        <style>
+            body {
+                width: 100vw;
+                height: auto;
+                overflow-x: hidden;
+            }
+            .navbar {
+                width: 100vw;
+                height: auto;
+                display: inline-flex;
+                justify-content: space-between;
+            }
+            .topright {
+                width: 30%;
+                display: inline-flex;
+                justify-content: space-between;
+                padding: 5px;
+                margin-right: 8%;
+            }
+            .topleft {
+                width: 70%;
+                height: auto;
+                margin-left: 5%;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            .content , .figure {
+                width: 87%;
+                margin: 0px auto;
+            }
+            .gallery {
+                width: 100%;
+                height: auto;
+                display: inline-block;
+            }
+            .galleryimages {
+                width: 100%;
+                display: inline-flex;
+                flex-wrap: wrap;
+            }
+            .galleryimages img {
+                width: 48%;
+                margin-right: 10px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="topleft">
+                <h2>Technology</h2>
+            </div>
+            <div class="topright">
+                <a href="#home"><h3>Home</h3></a>
+                <a href="#Gallery"><h3>Gallery</h3></a>
+                <a href="#menu"><h3>Menu</h3></a>
+            </div>
+        </div>
+        <div class="content">
+            <figure>
+                <img src="https://bostondynamics.com/wp-content/uploads/2023/07/atlas-runs-balance-beam-1.jpg" alt="An Image of Atlas" style='max-width:100%;'>
+                <figcaption>Welcome, robot enthusiasts! Whether you're a seasoned professional or a curious newcomer, this is your one-stop shop for everything robotics. </figcaption>
+            </figure>
+            <div class="gallery">
+                <h1 id="#Gallery">Gallery</h1>
+                <div class="galleryimages">
+                    <img src="https://cdn.sanity.io/images/7p2whiua/production/9e5916e1ffe321203fb681aeba6cab8dba5ab8e1-2048x1536.jpg?w=900&auto=format" alt="Photo of Sophia the Robot" style='max-width:48% ;'>
+                    <img src="https://www.engineeredarts.co.uk/wp-content/uploads/2021/11/ameca_transparent_1-e1638371642651-446x446.png" alt="An Image of Ameca" style='max-width:48% ;'>
+                    <img src="https://bostondynamics.com/wp-content/uploads/2023/06/spot-climbs-stairs-min.jpg" alt="An image of Spot" style='max-width:48% ;'>
+                    <img src="https://www.robotics247.com/images/article/teslaoptimus.jpg" alt="An image of Optimus gen 2" style='max-width:48% ;'>
+                </div>
+            </div>
+            <h1 id="#menu">Menu</h1>
+            <p>Most advanced robots today include: </p>
+            <ul>
+                <li><a href="https://bostondynamics.com/wp-content/uploads/2023/07/atlas-runs-balance-beam-1.jpg" target="_blank" title="View image in a new tab">Atlas from Boston Dynamics</a></li>
+                <li><a href="https://cdn.sanity.io/images/7p2whiua/production/9e5916e1ffe321203fb681aeba6cab8dba5ab8e1-2048x1536.jpg?w=900&auto=format" target="_blank" title="View image in a new tab">Sophia</a></li>
+                <li><a href="https://www.engineeredarts.co.uk/wp-content/uploads/2021/11/ameca_transparent_1-e1638371642651-446x446.png" target="_blank" title="View image in a new tab">Ameca</a></li>
+                <li><a href="https://www.robotics247.com/images/article/teslaoptimus.jpg" target="_blank" title="View image in a new tab">Optimus Gen 2 from Tesla</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
